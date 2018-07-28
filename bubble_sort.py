@@ -6,5 +6,5 @@ def bubble_sort(arr):
 			if k < len(arr) - 1:
 				if arr[k] > arr[k+1]:
 					is_sorted = False
-					arr[k], arr[k+1] = arr[k+1], arr[k]
+				    arr[k], arr[k+1] = arr[k+1], arr[k]
 	return arr
